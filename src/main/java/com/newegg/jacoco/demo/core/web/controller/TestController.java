@@ -22,4 +22,13 @@ public class TestController {
         System.out.println("line 7");
         return new HashMap();
     }
+
+    @RequestMapping(value = "/test2.json")
+    @ResponseBody
+    public Map testV2(){
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
 }
