@@ -31,4 +31,34 @@ public class TestController {
         System.out.println("line 7");
         return new HashMap();
     }
+    
+       @RequestMapping(value = "/test10.json")
+    @ResponseBody
+    public Map testV10(){
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+    
+           @RequestMapping(value = "/test11.json")
+    @ResponseBody
+    public Map testV11(){
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+       @RequestMapping(value = "/test12.json")
+    @ResponseBody
+    public Map testV12(){
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+    
 }
