@@ -22,4 +22,69 @@ public class TestController {
         System.out.println("line 7");
         return new HashMap();
     }
+    
+     @RequestMapping(value = "/test2.json")
+    @ResponseBody
+    public Map test2(){
+        System.out.println("line 1");
+        System.out.println("line 2");
+        System.out.println("line 3");
+        System.out.println("line 4");
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+    @RequestMapping(value = "/test3.json")
+    @ResponseBody
+    public Map test3(){
+        System.out.println("line 1");
+        System.out.println("line 2");
+        System.out.println("line 3");
+        System.out.println("line 4");
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+    @RequestMapping(value = "/test4.json")
+    @ResponseBody
+    public Map test4(){
+        System.out.println("line 1");
+        System.out.println("line 2");
+        System.out.println("line 3");
+        System.out.println("line 4");
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+    @RequestMapping(value = "/test5.json")
+    @ResponseBody
+    public Map test5(){
+        System.out.println("line 1");
+        System.out.println("line 2");
+        System.out.println("line 3");
+        System.out.println("line 4");
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
+    
+    @RequestMapping(value = "/test6.json")
+    @ResponseBody
+    public Map test6(){
+        System.out.println("line 1");
+        System.out.println("line 2");
+        System.out.println("line 3");
+        System.out.println("line 4");
+        System.out.println("line 5");
+        System.out.println("line 6");
+        System.out.println("line 7");
+        return new HashMap();
+    }
 }
